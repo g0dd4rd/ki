@@ -1,0 +1,20 @@
+<!doctype html>
+<head>
+ <meta charset="UTF-8">
+ <title>KI kontaktní formulář</title>
+</head>
+<body>
+<form action="./mail.php">
+<p><input type="text" name="fullname" value="Jméno a příjmení" id="fullname" required></p>
+<p><input type="email" name="email" value="váš@email.cz"  id="email" required></p>
+<p>Úroveň: <label for="beginner">začátečník</label><input type="radio" name="level" value="beginner" id="beginner">
+           <label for="advanced">pokročilý</label><input type="radio" name="level" value="advanced" id="advanced"></p>
+<p>Kytara: <label for="acoustic">akustická</label><input type="radio" name="instrument" value="acoustic" id="acoustic" checked>
+           <label for="electric">elektrická</label><input type="radio" name="instrument" value="electric" id="electric"></p>
+<p>Forma výuky: <label for="group">skupinová</label><input type="radio" name="class" value="group" id="group" checked>
+                <label for="individual">individuální</label><input type="radio" name="class" value="individual" id="individual"></p>
+<input type="submit" value="Odeslat">
+</form>
+</body>
+</html>
+
