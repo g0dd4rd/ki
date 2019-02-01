@@ -1,0 +1,24 @@
+form {
+  background-color: #2d2d2c;
+  color: white;
+}
+
+span {
+  padding-left: 10px;
+}
+
+.credentials {
+  padding: 0px;
+  margin: 0px;
+  width: 775px;
+}
+
+.sbutton {
+  background-color: rgb(250, 185, 25);
+  border-style: none;
+  margin-left: 150px;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
