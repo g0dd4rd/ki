@@ -1,24 +1,59 @@
 form {
   background-color: #2d2d2c;
   color: white;
+  font-family: Futura PT;
+  margin-left: 20%;
+  padding: 3.5%;
+  width: 60%;
+}
+
+input[type="radio"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  -ms-appearance: checkbox;
+}
+
+input[type="text"] {
+  width: 135%;
+}
+
+input[type="email"] {
+  width: 135%;
+}
+
+input[type="tel"] {
+  width: 135%;
+}
+
+p {
+  margin: 9% 0% 3% 0%;
+  padding: 0px;
 }
 
 span {
   padding-left: 10px;
 }
 
+.checkboxes {
+  margin-left: 51%;
+  padding: 0px;
+}
+
 .credentials {
+  position: absolute;
   padding: 0px;
   margin: 0px;
-  width: 775px;
+  width: 15%;
 }
 
 .sbutton {
   background-color: rgb(250, 185, 25);
   border-style: none;
-  margin-left: 150px;
+  margin-top: 4.5%;
+  margin-left: 42.5%;
   padding: 15px;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
+  width: 15%;
 }
