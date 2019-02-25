@@ -6,13 +6,25 @@
 </head>
 <body>
 <form action="./mail.php">
+<div class="content">
 <div class="credentials">
-<p><input type="text" name="fullname" value="Jméno a příjmení" id="fullname" required><span>Úroveň: </span><input type="radio" name="level" value="beginner" id="beginner"><label for="beginner">začátečník</label>
-           <input type="radio" name="level" value="advanced" id="advanced"><label for="advanced">pokročilý</label></p>
-<p><input type="email" name="email" value="váš@email.cz"  id="email" required><span>Kytara: </span><input type="radio" name="instrument" value="acoustic" id="acoustic" checked><label for="acoustic">akustická</label>
-           <input type="radio" name="instrument" value="electric" id="electric"><label for="electric">elektrická</label></p>
-<p><input type="tel" name="phone" value="Vaše telefonní číslo" id="phone" required><span>Forma výuky: </span><input type="radio" name="class" value="group" id="group" checked><label for="group">skupinová</label>
-                <input type="radio" name="class" value="individual" id="individual"><label for="individual">individuální</label></p>
+<p>Vaše jméno a příjmení:</p>
+<input type="text" name="fullname" value="" id="fullname" required>
+<p>Váš e-mail:</p>
+<input type="email" name="email" value="@"  id="email" required>
+<p>Vaše telefonní číslo (nepovinné):</p>
+<input type="tel" name="phone" value="" id="phone" required>
+</div>
+<div class="checkboxes">
+<p>Úroveň:</p>
+<input type="radio" name="level" value="beginner" id="beginner"><label for="beginner">začátečník</label>
+<input type="radio" name="level" value="advanced" id="advanced"><label for="advanced">pokročilý</label>
+<p>Kytara:</p>
+<input type="radio" name="instrument" value="acoustic" id="acoustic" checked><label for="acoustic">akustická</label>
+<input type="radio" name="instrument" value="electric" id="electric"><label for="electric">elektrická</label>
+<p>Forma výuky:</p><input type="radio" name="class" value="group" id="group" checked><label for="group">skupinová</label>
+<input type="radio" name="class" value="individual" id="individual"><label for="individual">individuální</label>
+</div>
 </div>
 <input class="sbutton" type="submit" value="Odeslat">
 </form>
